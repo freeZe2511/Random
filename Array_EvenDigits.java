@@ -20,7 +20,7 @@ public class Array_EvenDigits {
 
         Random rd = new Random();
 
-        for (int x=0; x<nums.length; x++){
+        for (int x=0; x<nums.length; x++){          // aufgabenstellung: zahlen bis 10^5
             nums[x] = rd.nextInt(100001);
         }
 
